@@ -8,4 +8,4 @@ RUN apk add --no-cache unzip curl && \
     rm -rf /var/cache/apk && \
     rm /tmp/vault.zip && \
     apk del unzip curl
-ENTRYPOINT [ "/bin/vault" ]
+#ENTRYPOINT [ "/bin/vault" ]
